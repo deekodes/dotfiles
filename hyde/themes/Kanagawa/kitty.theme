@@ -1,0 +1,73 @@
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+# vim:ft=kitty
+
+## name: Kanagawa
+## license: MIT
+## author: Tommaso Laurenzi
+## upstream: https://github.com/rebelot/kanagawa.nvim/
+
+background #1F1F28
+foreground #DCD7BA
+
+
+# normal
+color0 #16161D
+color1 #C34043
+color2 #76946A
+color3 #C0A36E
+color4 #7E9CD8
+color5 #957FB8
+color6 #6A9589
+color7 #C8C093
+
+# bright
+color8  #727169
+color9  #E82424
+color10 #98BB6C
+color11 #E6C384
+color12 #7FB4CA
+color13 #938AA9
+color14 #7AA89F
+color15 #DCD7BA
+
+
+# extended colors
+color16 #FFA066
+color17 #FF5D62
+
+# Cursor
+cursor #C8C093
+cursor_text_color #1a1b26
+
+# Selection highlight
+selection_foreground #C8C093
+selection_background #2D4F67
+
+# The color for highlighting URLs on mouse-over
+url_color #72A7BC
+
+# Window borders
+active_border_color #3d59a1
+inactive_border_color #101014
+bell_border_color #e0af68
+
+# Tab bar
+tab_bar_style fade
+tab_fade 1
+active_tab_foreground   #C8C093
+active_tab_background   #1F1F28
+active_tab_font_style   bold
+inactive_tab_foreground #727169
+inactive_tab_background #1F1F28
+inactive_tab_font_style bold
+tab_bar_background #15161E
+
+# Title bar
+macos_titlebar_color #16161e
+
+# Storm
+# background #24283b
+# cursor_text_color #24283b
+# active_tab_background   #1f2335
+# inactive_tab_background #1f2335
+# macos_titlebar_color #1f2335
